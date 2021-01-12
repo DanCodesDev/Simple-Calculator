@@ -1,0 +1,54 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+text-align: center;
+margin-top: 4rem;
+font-size: 2rem;
+background-color: violet;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+#month{
+  width: 200px;
+  color: gray;
+}
+#date{
+  width: 80px;
+  color: gray;
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
